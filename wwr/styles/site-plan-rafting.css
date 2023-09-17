@@ -82,23 +82,24 @@ p {
   height: 3em;
 }
 .primary {
-  background-color: var(--primary-color);
+  background-color: #052F5F;
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: #39A9DB;
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #FFFFFF;
 }
 .accent2{
-  background-color: var(--accent2-color);
+  background-color: #000000;
+  color:#fff
 }
 p.colored {
-  background-color: var(--paragraph-background-color);
+  background-color: #39A9DB;
   color: var(--paragraph-color-on-color);
 }
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #FFFFFF;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
