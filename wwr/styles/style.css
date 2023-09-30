@@ -1,79 +1,113 @@
-body{
-    background-color: #D3D3D3;
+/* Body Styles */
+body {
+    background-color: #D3D3D3; /* Set the background color for the body */
 }
-header{
-    background-color: #052F5F;
+
+/* Header Styles */
+header {
+    background-color: #052F5F; /* Set the background color for the header */
 }
-#content{
-    max-width: 1600px;
-    margin: 0 auto;
+
+/* Content Container Styles */
+#content {
+    max-width: 1600px; /* Set the maximum width of the content container */
+    margin: 0 auto; /* Center the content container horizontally */
 }
-nav a{
-    text-align: center;
-    color: white;
-    text-decoration: none;
+
+/* Navigation Link Styles */
+nav a {
+    text-align: center; /* Center-align the navigation links */
+    color: white; /* Set the text color for navigation links */
+    text-decoration: none; /* Remove text decoration from navigation links */
 }
-nav a:hover{
-    background-color: #ADD8E6;
-    color: white;
+
+/* Navigation Link Hover Styles */
+nav a:hover {
+    background-color: #ADD8E6; /* Change background color on hover */
+    color: white; /* Change text color on hover */
 }
-h4{
-    color: black;
+
+/* Typography Styles */
+h4, p {
+    color: black; /* Set text color for h4 and p elements */
 }
-p{
-    color: black;
+
+/* Hero Message Styles */
+#hero-msg h1, #hero-msg h4 {
+    text-align: center; /* Center-align h1 and h4 elements inside #hero-msg */
 }
-#hero-msg h1, #hero-msg h4{
-    text-align: center;
+
+/* Logo and Icon Styles */
+.logo, .icon {
+    width: 80px; /* Set width for elements with .logo and .icon classes */
 }
-.logo{
-    width: 80px;
+
+/* Hero Image Styles */
+#hero-img {
+    width: 100%; /* Set the width of the hero image to 100% */
 }
-.icon{
-    width: 80px;
+
+/* Home Title Styles */
+.home-title {
+    color: black; /* Set text color for elements with .home-title class */
 }
-#hero-img{
-    width: 100%;
+
+/* Button Box Styles */
+.button-box {
+    text-align: center; /* Center-align elements with .button-box class */
 }
-.home-title{
-    color: black;
+
+/* Main Section Styles */
+main section {
+    text-align: center; /* Center-align elements within main section */
 }
-.button-box{
-    text-align: center;
+
+/* Background Styles */
+#background {
+    height: 725px; /* Set the height of the background element */
+    background-color: #ADD8E6; /* Set background color for the background element */
 }
-main section{
-    text-align: center;
+
+/* Button Styles */
+.book, .join {
+    background-color: #052F5F; /* Set background color for .book and .join buttons */
+    color: #39A9DB; /* Set text color for .book and .join buttons */
+    text-decoration: none; /* Remove text decoration from .book and .join buttons */
 }
-#background{
-    height: 725px;
-    background-color: #D3D3D3;
+
+/* Button Hover Styles */
+.book:hover, .join:hover {
+    background-color: #ADD8E6; /* Change background color on hover for .book and .join buttons */
+    color: white; /* Change text color on hover for .book and .join buttons */
 }
-.book, .join{
-    background-color: #052F5F; 
-    color: #39A9DB;
-    text-decoration: none;
+
+/* Message Box Styles */
+.msg {
+    background-color: #39A9DB; /* Set background color for elements with .msg class */
+    color: black; /* Set text color for elements with .msg class */
 }
-.book:hover, .join:hover{
-    background-color: #ADD8E6;
-    color: white;
+
+/* Footer Styles */
+footer {
+    background-color: #052F5F; /* Set background color for the footer */
 }
-.msg, h2{
-    background-color: #39A9DB;
-    color: black;
+
+/* Footer Paragraph Styles */
+footer p {
+    color: white; /* Set text color for paragraphs within the footer */
+    font-size: 1.2em; /* Set font size for paragraphs within the footer */
+    text-decoration: none; /* Remove text decoration from paragraphs within the footer */
 }
-footer{
-    background-color: #052F5F;
+
+/* Footer Link Styles */
+footer a {
+    background-color: #052F5F; /* Set background color for links within the footer */
+    color: white; /* Set text color for links within the footer */
+    text-decoration: none; /* Remove text decoration from links within the footer */
 }
-footer p{
-    color: white;
-    font-size: 1.2em;
-}
-footer a{
-    background-color: #ADD8E6;
-    color: black;
-    text-decoration: none;
-}
-footer a:hover{
-    color: white;
-    text-decoration: underline;
+
+/* Footer Link Hover Styles */
+footer a:hover {
+    color: black; /* Change text color on hover for links within the footer */
+    text-decoration: underline; /* Underline links on hover within the footer */
 }

@@ -1,9 +1,41 @@
-.main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
+body{
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: rgba(247, 158, 207, 0.9);
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h1:hover{
+    color:black;
 }
 
-#active {
-    background-color: white;
-    color: steelblue;
+blockquote{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+li{
+    color: black;
+    padding: 1%;
+}
+
+img{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+#larger-text{
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    font-size: 1.5em;
+    padding-bottom: 5%;
+}
+
+.black-text{
+    color: black;
 }
