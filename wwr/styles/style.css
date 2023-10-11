@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Martel:wght@800&display=swap');
 /* Body Styles */
 body {
     background-color: #D3D3D3; /* Set the background color for the body */
@@ -86,6 +87,10 @@ main section img {
     height: 725px; /* Set the height of the background element */
     background-color: #ADD8E6; /* Set background color for the background element */
     padding: 15px 30px;
+}
+
+.mountains{
+    padding: 2em 0; /*added padding to match sample*/
 }
 
 /* Button Styles */
