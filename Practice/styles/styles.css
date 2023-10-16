@@ -1,39 +1,37 @@
-#main-container {
-    display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    height: 100vh; /* 100% of viewport height */
-}
-
 #main-content {
-    max-width: 50%;
-    width: 100%; /* Make sure content inside respects the max-width */
-    padding: 0 10px; /* Add some padding to create white space on the sides */
-    box-sizing: border-box; /* Include padding in the width */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center content horizontally within main-content */
-    text-align: center; /* Center text horizontally */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for box1 and box2 */
+    grid-template-rows: auto; /* Automatically size rows */
+    gap: 10px; /* Adjust gap between columns */
+    position: relative;
+    max-width: 500px;
+}
+#text{
+    display: grid;
+    font-size: 12em;
+    grid-column: 1/3;
+    z-index: 1;
+    position:absolute;
+    padding: 0 .2em;
 }
 
-#business-card {
-    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
-    height: auto; /* Maintain aspect ratio */
-    width: 100%; /* Set the width to 100% to match container */
+#box1{
+    width:600px;
+    
 }
 
-#container {
-    background-color: #737373;
-    display: flex;
-    justify-content: space-evenly; /* Distribute items equally horizontally */
-    box-sizing: border-box;
-    width: 100%; /* Set the width to 100% to match business-card */
+#box2 {
+   background-color: gray; 
+   width: 600px;
+   z-index: -1;
+   position: relative;
 }
 
-.small-img {
-    max-width: 21%;
-    border-radius: 50%;
-    border: 15px solid #444;
-    margin: 3% 0;
-    box-sizing: border-box; /* Include padding and border in the element's dimensions */
+#cherry-text{
+    font-size: 8em;
+    position: absolute;
+    bottom: 0;
+    color: #9c0e11;
+    padding: .1em .4em;
+  
 }
