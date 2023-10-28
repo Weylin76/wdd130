@@ -290,3 +290,20 @@ footer .social img{
         margin-top: 25px;
     }
 }
+
+/* River page */
+#river-page{
+    margin: 10px;
+}
+.river-imgs{
+    max-width: 300px;
+}
+#river-top, #river-bottom{
+    float: left;
+    margin-right: 10px;
+}
+
+#river-middle{
+    float: right;
+    margin-left: 10px;
+}
