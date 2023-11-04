@@ -1,4 +1,4 @@
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
     body {
         margin: 0;
@@ -73,6 +73,11 @@
         margin: 10px;
         font-size: 1.3rem;
     }
+
+    #top10fish{
+        width: 250px;
+    }
+
     footer {
         background-color: darkblue;
         color: white;
