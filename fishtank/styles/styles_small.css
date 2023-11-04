@@ -66,6 +66,11 @@ body {
         border-radius: 5%;
     }
 
+    #wrapper{
+        background-color: lightgray;
+        padding: 20px;
+    }
+
     #wrapper img {
         max-width: 100%;
         height: auto; /* to maintain the aspect ratio */
