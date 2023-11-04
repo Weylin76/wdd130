@@ -25,6 +25,11 @@
     padding: 20px;
 }
 
+#wrapper img {
+    max-width: 100%;
+    height: auto; /* to maintain the aspect ratio */
+}
+
 header{
     background-color: darkblue;
     font-size: xx-large;
