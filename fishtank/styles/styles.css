@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+@media (min-width: 700px) {
+    body {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: lightblue;
+    padding: .5rem;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner {
+    width: 100%;
+    overflow: hidden; /* Hide any overflow if the image is larger than the banner */
+} 
+
+#banner-img {
+    width: 100%;
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+#wrapper{
+    background-color: lightgray;
+    padding: 20px;
+}
+
+header{
+    background-color: darkblue;
+    font-size: xx-large;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    margin: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:yellow;
+    border: 1px solid white;
+    border-radius: .5rem;
+}
+
+
+.active-link {
+    background-color: white;
+    color: black; 
+    font-weight: bold; 
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+h2{
+    /* text-align: center; */
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.content{
+    display: flex;
+    align-items: center;  /*Horizontally center items */
+}
+
+p{
+    margin: 10px;
+    font-size: 1.3rem;
+}
+
+.content img{
+    max-width: 300px;
+    border: 3px solid black;
+    border-radius: 5%;
+}
+
+
+footer {
+    background-color: darkblue;
+    color: white;
+    font-size: xx-large;
+    padding: 1.2rem;
+    text-align: center;
+}
+.fish-container {
+    position: fixed;
+    top: 29%;
+    left: -100px;
+    animation: swim 10s linear forwards; /* Adjusted animation */
+}
+
+.fish {
+    width: 100px;
+    height: auto;
+}
+
+@keyframes swim {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(120vw); /* Move from left to right */
+    }
+}
+} 
