@@ -80,6 +80,10 @@ body {
         width: 250px;
     }
 
+    .center{
+        align-content: center;
+    }
+
     footer {
         background-color: darkblue;
         color: white;

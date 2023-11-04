@@ -88,6 +88,10 @@ p{
     width: 250px;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+}
 
 footer {
     background-color: darkblue;
