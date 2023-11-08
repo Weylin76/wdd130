@@ -211,13 +211,10 @@ main section img {
 }
 
 .msg{
-    grid-column: 6-10;
+    grid-column: 6/10;
     grid-row: 6/7;
 }
 
-.river-para{
-    padding: r1em;
-}
 
 /* Footer Styles */
 footer {
