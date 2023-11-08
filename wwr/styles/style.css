@@ -41,6 +41,7 @@ nav a:hover {
 
 h2{
 margin: 0; /*zero out margin to allow browser to control */
+padding-bottom: 1rem;
 }
 
 /* Typography Styles */
