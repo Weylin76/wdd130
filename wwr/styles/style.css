@@ -214,6 +214,11 @@ main section img {
     grid-column: 6-10;
     grid-row: 6/7;
 }
+
+.river-para{
+    padding: r1em;
+}
+
 /* Footer Styles */
 footer {
     background-color: #052F5F; /* Set background color for the footer */
