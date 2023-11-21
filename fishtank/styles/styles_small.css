@@ -12,6 +12,23 @@ body {
 /* Apply CSS rules to anything less than 750px */
 @media (max-width: 750px) {
     #banner {
+        position: relative; /* Creates a positioning context */
+    }
+    
+    #banner-img {
+        width: 100%;
+        height: auto;
+        /* z-index is optional here, depending on other elements in your layout */
+    }
+    
+    audio {
+        position: absolute;
+        bottom: 10px; /* Adjust as needed to position over the image */
+        left: 10px; /* Adjust as needed */
+        z-index: 5; /* Ensures audio is above the image */
+    }
+
+    #banner {
         width: 100%;
         overflow: hidden;
         margin: 0;

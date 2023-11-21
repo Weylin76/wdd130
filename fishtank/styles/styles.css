@@ -9,11 +9,25 @@
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
 }
-
 #banner {
+    position: relative; /* Creates a positioning context */
     width: 100%;
     overflow: hidden; /* Hide any overflow if the image is larger than the banner */
-} 
+}
+
+#banner-img {
+    width: 100%;
+    height: auto;
+ 
+}
+
+audio {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    z-index: 1; /* Ensures audio is above the image */
+}
+
 
 #banner-img {
     width: 100%;
