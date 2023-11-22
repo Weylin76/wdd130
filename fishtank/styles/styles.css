@@ -4,7 +4,7 @@
     body {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: lightblue;
+    background-color: #ADD8E6;
     padding: .5rem;
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
@@ -35,7 +35,7 @@ audio {
 }
 
 #wrapper{
-    background-color: lightgray;
+    background-color: #d3d3d3;
     padding: 20px;
 }
 
@@ -45,7 +45,7 @@ audio {
 }
 
 header{
-    background-color: darkblue;
+    background-color: #00008B;
     font-size: xx-large;
     padding: 1.2rem;
     display: flex;
@@ -115,7 +115,7 @@ p{
 }
 
 footer {
-    background-color: darkblue;
+    background-color: #00008B;
     color: white;
     font-size: xx-large;
     padding: 1.2rem;

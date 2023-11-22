@@ -4,7 +4,7 @@
 body {
     margin: 0;
     padding: 0.5rem;
-    background-color: lightblue;
+    background-color: #ADD8E6;
     display: block;
     font-family: 'Roboto', sans-serif; 
     font-size: 1rem; 
@@ -41,7 +41,7 @@ body {
     }
     
     header {
-        background-color: darkblue;
+        background-color: #00008B;
         font-size: large;
         display: block;
         margin: 0;
@@ -107,7 +107,7 @@ body {
     }
 
     footer {
-        background-color: darkblue;
+        background-color: #00008B;
         color: white;
         font-size: medium;
         padding: 1rem;
