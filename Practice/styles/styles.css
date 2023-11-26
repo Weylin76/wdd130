@@ -1,28 +1,46 @@
-.card{
-    max-width: 300px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-rows: 2fr 60px 150px;
-    border: 1px black solid;
-    border-radius: 1rem;
+body {
+    font-family: "Lato", sans-serif;
 }
-img{
-    overflow: hidden;
-    border-radius: 1rem 1rem 0 0;
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
-.card-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
 }
-.card-content{
-    overflow: hidden;
+
+.sidenav a:hover {
+    color: #f1f1f1;
 }
-.card-footer {
-    background-color: blue;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-    justify-items: center;
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
 }
 
